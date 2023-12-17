@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Copperplate Gothic Bold';
+  font-weight: normal;
+  font-style: normal;
+  src: url('assets/title-font.otf');
+}
