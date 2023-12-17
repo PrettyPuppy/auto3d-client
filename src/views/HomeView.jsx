@@ -5,7 +5,7 @@ const HomeView = () => {
   return (
     <div className='bg-[#050505] w-[100vw] h-[100vh]' style={{ fontFamily: 'Copperplate Gothic Bold' }}>
       <div className='lg:w-[40vw] h-[100vh] pl-10 float-left flex justify-center'>
-        <img src='src\assets\assassin.jpg' className='my-auto' alt='Assassin'></img>
+        <img src='assets/assassin.jpg' className='my-auto' alt='Assassin'></img>
       </div>
       <div className='lg:w-[60vw] h-[100vh] float-right flex justify-center'>
         <p className='text-6xl text-center text-[#E6D9C6] uppercase my-auto mr-60 leading-normal'>
