@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import logo from '../../assets/assassin.jpg';
 
 const Login = () => {
 
@@ -41,7 +42,7 @@ const Login = () => {
   return (
     <form className='bg-[#050505] w-[100vw] h-[100vh]' onSubmit={handleSubmit} style={{ fontFamily: 'Copperplate Gothic Bold' }}>
       <div className='lg:w-[40vw] h-[100vh] pl-10 float-left flex justify-center'>
-        <img src='../src/assets/assassin.jpg' className='my-auto' alt='Assassin'></img>
+        <img src={logo} className='my-auto' alt='Assassin'></img>
       </div>
       <div className='lg:w-[60vw] h-[100vh] float-right flex justify-center'>
         <div className='my-auto w-auto text-[#E6D9C6]'>
